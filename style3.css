@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgb(228, 249, 255);
+}
+
+.grid-container {
+    display: grid;
+    overflow: hidden;
+    max-width: 1200px;
+    max-height: 800px;
+    grid-template-rows: repeat(3, minmax(80px, 1fr));
+    grid-template-columns: repeat(4, minmax(80px, 1fr));
+    grid-template-areas: 
+        "im1 img2 img3 img4"
+        "im5 img6 img3 img7"
+        "im5 img6 img3 img7";
+}
+
+.img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.img-1 {
+    grid-area: img1;
+}
+.img-2 {
+    grid-area: img2;
+}
+.img-3 {
+    grid-area: img3;
+}
+.img-4 {
+    grid-area: img4;
+}
+.img-5 {
+    grid-area: img5;
+}
+.img-6 {
+    grid-area: img6;
+}
+.img-7 {
+    grid-area: img7;
+}
