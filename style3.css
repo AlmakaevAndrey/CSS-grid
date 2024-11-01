@@ -15,9 +15,9 @@ body {
     grid-template-rows: repeat(3, minmax(80px, 1fr));
     grid-template-columns: repeat(4, minmax(80px, 1fr));
     grid-template-areas: 
-        "im1 img2 img3 img4"
-        "im5 img6 img3 img7"
-        "im5 img6 img3 img7";
+        "img1 img2 img3 img4"
+        "img5 img6 img3 img7"
+        "img5 img6 img3 img7";
 }
 
 .img {
